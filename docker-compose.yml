@@ -1,0 +1,7 @@
+version: "3"
+services:
+  node-pm2:
+    build:
+      context: ./
+    image: node-pm2:1.0.0
+    container_name: node-pm2
